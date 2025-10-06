@@ -6,6 +6,7 @@ const navigation = [
   { name: "Dashboard", href: "/admin", icon: LayoutDashboard },
   { name: "Travels", href: "/admin/packages", icon: Package },
   { name: "Tours", href: "/admin/tours", icon: MapPin },
+  { name: "Blogs", href: "/admin/blogs", icon: MapPin },
   { name: "Bookings", href: "/admin/bookings", icon: CreditCard },
 ]
 

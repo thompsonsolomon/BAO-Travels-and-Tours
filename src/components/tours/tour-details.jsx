@@ -81,23 +81,7 @@ export function TourDetails({ tourId }) {
     <div className="py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb */}
-        <nav className="mb-8">
-          <ol className="flex items-center space-x-2 text-sm text-slate-600">
-            <li>
-              <a href="/" className="hover:text-amber-600">
-                Home
-              </a>
-            </li>
-            <li>/</li>
-            <li>
-              <a href="/tours" className="hover:text-amber-600">
-                Tours
-              </a>
-            </li>
-            <li>/</li>
-            <li className="text-slate-900">{tourData.title}</li>
-          </ol>
-        </nav>
+     
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Main Content */}

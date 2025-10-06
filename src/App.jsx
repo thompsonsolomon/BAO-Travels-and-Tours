@@ -11,6 +11,9 @@ import AdminTours from "./pages/admin/AdminTours"
 import AdminBookings from "./pages/admin/AdminBookings"
 import AboutPage from "./pages/AboutPage"
 import ContactPage from "./pages/ContactPage"
+import BlogPage from "./pages/BlogPage"
+import BlogDetailsPage from "./pages/BlogDetailsPage"
+import AdminBlogPage from "./pages/admin/AdminBlogPage"
 
 function App() {
   return (
@@ -23,11 +26,15 @@ function App() {
       <Route path="/tours" element={<ToursPage />} />
       <Route path="/tours/:id" element={<TourDetailsPage />} />
       <Route path="/admin/login" element={<AdminLogin />} />
+      <Route path="/blogs" element={<BlogPage />} />
+      <Route path="/blogs/:id" element={<BlogDetailsPage />} />
       {/* Admin Routes */}
       <Route path="/admin" element={<AdminDashboard />} />
       <Route path="/admin/packages" element={<AdminPackages />} />
       <Route path="/admin/tours" element={<AdminTours />} />
       <Route path="/admin/bookings" element={<AdminBookings />} />
+      <Route path="/admin/blogs" element={<AdminBlogPage />} />
+
     </Routes>
   )
 }
